@@ -11,7 +11,7 @@ if not env_path.exists():
     env_path = Path(__file__).resolve().parent.parent / ".env.example"
 load_dotenv(env_path)
 
-TARGET_PHONE = os.environ.get("FALLBACK_PHONE_NUMBER", "+1234567890")
+TARGET_PHONE = os.environ.get("FALLBACK_PHONE_NUMBER", "+919635480094")
 
 
 @pytest.fixture(autouse=True)
